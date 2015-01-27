@@ -40,8 +40,8 @@
             this.userManualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.emailSupportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnBack = new System.Windows.Forms.Button();
             this.newBrowser = new System.Windows.Forms.WebBrowser();
+            this.btnHome = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -136,36 +136,36 @@
             this.emailSupportToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.emailSupportToolStripMenuItem.Text = "&Email Support";
             // 
-            // btnBack
-            // 
-            this.btnBack.BackColor = System.Drawing.SystemColors.Control;
-            this.btnBack.BackgroundImage = global::BSIBrowser.Properties.Resources.btnBG;
-            this.btnBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnBack.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnBack.Image = global::BSIBrowser.Properties.Resources.back_icon;
-            this.btnBack.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnBack.Location = new System.Drawing.Point(790, 65);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(182, 54);
-            this.btnBack.TabIndex = 10;
-            this.btnBack.Text = "Back to BSI Website";
-            this.btnBack.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnBack.UseMnemonic = false;
-            this.btnBack.UseVisualStyleBackColor = false;
-            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
-            // 
             // newBrowser
             // 
             this.newBrowser.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.newBrowser.Location = new System.Drawing.Point(18, 133);
+            this.newBrowser.Location = new System.Drawing.Point(18, 125);
             this.newBrowser.MinimumSize = new System.Drawing.Size(20, 20);
             this.newBrowser.Name = "newBrowser";
             this.newBrowser.ScriptErrorsSuppressed = true;
-            this.newBrowser.Size = new System.Drawing.Size(954, 596);
+            this.newBrowser.Size = new System.Drawing.Size(954, 604);
             this.newBrowser.TabIndex = 11;
             this.newBrowser.TabStop = false;
+            // 
+            // btnHome
+            // 
+            this.btnHome.BackColor = System.Drawing.SystemColors.Control;
+            this.btnHome.BackgroundImage = global::BSIBrowser.Properties.Resources.btnBG;
+            this.btnHome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnHome.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnHome.Image = global::BSIBrowser.Properties.Resources.back_icon;
+            this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnHome.Location = new System.Drawing.Point(790, 65);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(182, 54);
+            this.btnHome.TabIndex = 10;
+            this.btnHome.Text = "Back to BSI Website";
+            this.btnHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnHome.UseMnemonic = false;
+            this.btnHome.UseVisualStyleBackColor = false;
+            this.btnHome.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // FormNewBrowser
             // 
@@ -173,7 +173,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 761);
             this.Controls.Add(this.newBrowser);
-            this.Controls.Add(this.btnBack);
+            this.Controls.Add(this.btnHome);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label1);
@@ -206,7 +206,7 @@
         private System.Windows.Forms.ToolStripMenuItem userManualToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem emailSupportToolStripMenuItem;
-        private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Button btnHome;
         private System.Windows.Forms.WebBrowser newBrowser;
     }
 }

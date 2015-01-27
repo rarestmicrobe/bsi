@@ -78,5 +78,6 @@ namespace BSIBrowser
             Form frmAbout = new FormAbout();
             frmAbout.ShowDialog();
         }
+
     }
 }

@@ -124,6 +124,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bsi_icon.ico" />
+    <None Include="Resources\forward_arrow.png" />
+    <None Include="Resources\back_arrow.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

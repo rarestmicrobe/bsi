@@ -144,11 +144,11 @@
             this.webBrowser.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.webBrowser.Location = new System.Drawing.Point(18, 133);
+            this.webBrowser.Location = new System.Drawing.Point(18, 125);
             this.webBrowser.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser.Name = "webBrowser";
             this.webBrowser.ScriptErrorsSuppressed = true;
-            this.webBrowser.Size = new System.Drawing.Size(954, 616);
+            this.webBrowser.Size = new System.Drawing.Size(954, 624);
             this.webBrowser.TabIndex = 6;
             this.webBrowser.TabStop = false;
             this.webBrowser.Url = new System.Uri("https://www.boilerservicesandinspection.com/employee/action", System.UriKind.Absolute);

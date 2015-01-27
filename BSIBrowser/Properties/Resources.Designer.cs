@@ -63,6 +63,16 @@ namespace BSIBrowser.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap back_arrow {
+            get {
+                object obj = ResourceManager.GetObject("back_arrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap back_icon {
             get {
                 object obj = ResourceManager.GetObject("back_icon", resourceCulture);
@@ -76,6 +86,16 @@ namespace BSIBrowser.Properties {
         internal static System.Drawing.Bitmap btnBG {
             get {
                 object obj = ResourceManager.GetObject("btnBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap forward_arrow {
+            get {
+                object obj = ResourceManager.GetObject("forward_arrow", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
