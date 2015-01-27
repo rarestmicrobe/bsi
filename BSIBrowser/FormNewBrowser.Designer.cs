@@ -40,8 +40,8 @@
             this.userManualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.emailSupportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.NewBrowser = new System.Windows.Forms.WebBrowser();
             this.btnBack = new System.Windows.Forms.Button();
+            this.newBrowser = new System.Windows.Forms.WebBrowser();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -136,19 +136,6 @@
             this.emailSupportToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.emailSupportToolStripMenuItem.Text = "&Email Support";
             // 
-            // webBrowser
-            // 
-            this.NewBrowser.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.NewBrowser.Location = new System.Drawing.Point(18, 133);
-            this.NewBrowser.MinimumSize = new System.Drawing.Size(20, 20);
-            this.NewBrowser.Name = "newBrowser";
-            this.NewBrowser.ScriptErrorsSuppressed = true;
-            this.NewBrowser.Size = new System.Drawing.Size(954, 616);
-            this.NewBrowser.TabIndex = 9;
-            this.NewBrowser.Url = new System.Uri("https://www.boilerservicesandinspection.com/employee/action", System.UriKind.Absolute);
-            // 
             // btnBack
             // 
             this.btnBack.BackColor = System.Drawing.SystemColors.Control;
@@ -167,13 +154,26 @@
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+            // newBrowser
+            // 
+            this.newBrowser.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.newBrowser.Location = new System.Drawing.Point(18, 133);
+            this.newBrowser.MinimumSize = new System.Drawing.Size(20, 20);
+            this.newBrowser.Name = "newBrowser";
+            this.newBrowser.ScriptErrorsSuppressed = true;
+            this.newBrowser.Size = new System.Drawing.Size(954, 596);
+            this.newBrowser.TabIndex = 11;
+            this.newBrowser.TabStop = false;
+            // 
             // FormNewBrowser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 761);
+            this.Controls.Add(this.newBrowser);
             this.Controls.Add(this.btnBack);
-            this.Controls.Add(this.NewBrowser);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label1);
@@ -207,5 +207,6 @@
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem emailSupportToolStripMenuItem;
         private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.WebBrowser newBrowser;
     }
 }

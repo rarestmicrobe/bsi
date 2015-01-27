@@ -12,7 +12,10 @@ namespace BSIBrowser
             InitializeComponent();
         }
 
-        public WebBrowser NewBrowser { get; private set; }
+        public WebBrowser NewBrowser
+        {
+            get {  return newBrowser; }
+        }
 
         private void FormNewBrowser_Load(object sender, EventArgs e)
         {

@@ -150,6 +150,7 @@
             this.webBrowser.ScriptErrorsSuppressed = true;
             this.webBrowser.Size = new System.Drawing.Size(954, 616);
             this.webBrowser.TabIndex = 6;
+            this.webBrowser.TabStop = false;
             this.webBrowser.Url = new System.Uri("https://www.boilerservicesandinspection.com/employee/action", System.UriKind.Absolute);
             // 
             // FormMain
