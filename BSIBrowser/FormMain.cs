@@ -40,7 +40,7 @@ namespace BSIBrowser
             }
         }
 
-        private void nativeBrowser_NewWindow2(ref object ppDisp, ref bool Cancel)
+        private void nativeBrowser_NewWindow2(ref object ppDisp, ref bool cancel)
         {
             var popup = new FormNewBrowser();
             popup.Show(this);
@@ -78,6 +78,5 @@ namespace BSIBrowser
             Form frmAbout = new FormAbout();
             frmAbout.ShowDialog();
         }
-
     }
 }

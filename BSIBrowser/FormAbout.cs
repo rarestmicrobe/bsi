@@ -28,7 +28,7 @@ namespace BSIBrowser
         {
             const int firstYear = 2015;
             var currentYear = DateTime.Now.Year;
-            var copyrightYear = "";
+            string copyrightYear;
 
             if (currentYear == firstYear)
             {

@@ -73,6 +73,7 @@
             this.linkLabel1.TabIndex = 7;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "tchambers@bsimail.com";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked_1);
             // 
             // label1
             // 
@@ -105,8 +106,9 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click_1);
             // 
             // helpToolStripMenuItem
             // 
@@ -121,20 +123,22 @@
             // userManualToolStripMenuItem
             // 
             this.userManualToolStripMenuItem.Name = "userManualToolStripMenuItem";
-            this.userManualToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.userManualToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.userManualToolStripMenuItem.Text = "User &Manual";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.aboutToolStripMenuItem.Text = "&About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click_1);
             // 
             // emailSupportToolStripMenuItem
             // 
             this.emailSupportToolStripMenuItem.Name = "emailSupportToolStripMenuItem";
-            this.emailSupportToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.emailSupportToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.emailSupportToolStripMenuItem.Text = "&Email Support";
+            this.emailSupportToolStripMenuItem.Click += new System.EventHandler(this.emailSupportToolStripMenuItem_Click_1);
             // 
             // newBrowser
             // 

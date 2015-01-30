@@ -23,30 +23,30 @@ namespace BSIBrowser
             lblVersion.Text = String.Format("Version: {0}", Assembly.GetExecutingAssembly().GetName().Version);
         }
 
-        private void emailSupportToolStripMenuItem_Click(object sender, EventArgs e)
+        private void btnBack_Click(object sender, EventArgs e)
         {
-            Process.Start("mailto:tyler@bsimail.com");
+            Close();
         }
 
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        private void exitToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void emailSupportToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             Process.Start("mailto:tyler@bsimail.com");
         }
 
-        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        private void aboutToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             Form frmAbout = new FormAbout();
             frmAbout.ShowDialog();
         }
 
-        private void btnBack_Click(object sender, EventArgs e)
+        private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Close();
+            Process.Start("mailto:tyler@bsimail.com");
         }
     }
 }
